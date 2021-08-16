@@ -1,0 +1,31 @@
+.family__slider{
+    position: relative;
+}
+.family__tree{
+    position: absolute;
+    img{
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    }
+}
+
+
+
+.lovebirds{
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+    img{
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    }
+
+}
+.palm {
+    position: absolute;
+    right: 0;
+    img{
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    }
+}

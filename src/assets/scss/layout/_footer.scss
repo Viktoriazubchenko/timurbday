@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer{
+    padding: 2rem 0 0 0;
+    color: $font_green;
+    p {
+        font-size: 0.9rem;
+        line-height: normal;
+        margin-bottom: 0.5rem;
+    }
+}
+.footer__top{
+    border-bottom: 2px solid $font_green;
+}
+.footer__bottom{
+    padding: 2rem 0;
+    font-weight: bold;
+    color: white;
+    background-color: $font_green;
+}
+.footer__title{
+    font-family: 'Indie Flower', cursive;
+    color: $color_lightgreen;
+}
+.footer__social{
+    font-size: 2rem;
+    a{
+        &:hover{
+            transform: rotate(20grad);
+            color: $color_lightgreen;
+        }
+    }
+    
+}
+.footer__info{
+
+}
+.footer__menu{
+    ul{
+        padding: 0;
+        li{
+            margin-bottom: 1rem;
+            a{
+                font-size: 0.9rem;
+                line-height: normal;
+                &:hover{
+                    text-decoration: none;
+                    color: $color_lightgreen;
+                }
+            }
+        }
+    }
+}
+.footer__img {
+    img{
+        width: 100%;
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    } 
+}

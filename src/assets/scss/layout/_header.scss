@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+    .header__links{
+        padding: 1rem 0;
+        border-bottom: 2px solid $font_green; 
+        background: url('../../img/leaves.jpeg') no-repeat center center / cover;
+    }
+    .header__hero{
+        padding: 2rem 0;
+    }
+    .header__info{
+        text-align: center;
+    }
+    .header__title{
+        color: $color_lightgreen;
+        font-family: 'Indie Flower', cursive;
+        //font-size: 5rem;
+    }
+    .header__subtitle{
+        color: $font_green;
+        font-weight: 500;
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.3rem;
+    }
+    .wrap {
+        height: 1rem;
+    }
+    .header__menu{
+        padding: 2rem 0;
+        border-top: 2px solid $font_green;
+        border-bottom: 2px solid $font_green; 
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0;
+            li{
+                a{
+                    font-weight: 500;
+                    &:hover{
+                        color: $color_lightgreen;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .header__img{
+        img{
+            width: 100%;
+            filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+            -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        } 
+}  
+    
+

@@ -1,0 +1,44 @@
+.about-me{
+    
+}
+.about-me__title{
+    background-color: $color_lightgreen;
+    border-radius: 1rem;
+    padding: 1.3rem;
+    h3{
+        color: white;
+        font-family: 'Bad Script', cursive;
+        margin-bottom: 0;
+    }
+    
+}
+.about-me__img {
+    img {
+        border-radius: 1rem;
+        width: 100%;
+    }
+}
+.about-me__info {
+    background-color: $color_lightgreen;
+    border-radius: 1rem;
+    padding: 1.3rem 2rem;
+    color: white;
+    em {
+        font-family: 'Bad Script', cursive;
+        //font-size: $h2-font-size-touch;
+        margin-left: 2rem;
+    }
+}
+
+.mypic{
+    
+    border-radius: 2.3rem;
+    border: white solid 1rem;
+    &:hover{
+        
+        
+        box-shadow: $color_lightgreen 0 0.2rem 1.2rem 
+    }
+}
+    
+

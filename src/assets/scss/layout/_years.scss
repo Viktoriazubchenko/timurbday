@@ -1,0 +1,76 @@
+.years{
+
+}
+.year{
+    position: relative;
+}
+.polaroid{
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 0.2rem 1.2rem 
+}
+.years-grid{
+    position: relative;
+}
+
+.years__item{
+    position: relative;
+    margin-top: 2rem;
+    filter: grayscale(100%);
+    transform: scale(0.8, 0.8) rotate(5deg);
+    transition: all 0.35s;
+    img {
+        width: 100%;
+        height: auto;
+    }
+    &:hover {
+        filter: none;
+        transform: scale(1, 1) rotate(0deg) !important;}
+    
+}
+.second-item{
+    transform: scale(0.8, 0.8) rotate(-4deg);
+}
+.third-item{
+    transform: scale(0.8, 0.8) rotate(2deg);
+}
+.fourth-item{
+    transform: scale(0.8, 0.8) rotate(-3deg);
+}
+.fifth-item{
+    transform: scale(0.8, 0.8) rotate(1deg);
+}
+.sixth-item{
+    transform: scale(0.8, 0.8) rotate(4deg);
+}
+
+.caption {
+    text-align: center;
+    line-height: 2em;
+    font-family: 'Bad Script', cursive;
+}
+
+.years__title{
+    position: relative;
+}
+.tucan{
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    img{
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    }
+    
+}
+
+.ara{
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    img{
+        filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+        -webkit-filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+    }
+    
+}
